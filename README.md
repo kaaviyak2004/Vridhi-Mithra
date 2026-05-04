@@ -1,18 +1,17 @@
-# 🌱 Vridhi Mitra – AI-Powered Student Performance & Personalized Learning System
+# 🌱 Vridhi Mitra – AI-Powered Personalized Learning Platform for Rural Students
 
-A comprehensive AI-driven platform that streamlines academic management, tracks real-time performance, and provides personalized learning guidance using the Google Gemini AI engine.
+Vridhi Mitra is a mission-driven AI platform designed to bridge the educational gap for students in rural areas. By leveraging the Google Gemini AI engine, it provides high-quality, personalized learning guidance, automated assessments, and placement preparation that were previously inaccessible due to resource constraints.
 
 ## ✨ Key Features
 
 ### 🏢 Super Admin
-- 🏛️ **College Management** – Multi-tenancy support to manage multiple institutions.
-- 🛡️ **Role Control** – Oversee Admins, Faculty, and Student populations.
-- 📊 **Global Analytics** – System-wide performance and enrollment statistics.
+- 🌍 **Regional Oversight** – Manage learning networks across different rural zones.
+- 📊 **Impact Analytics** – System-wide tracking of student progress and educational growth.
 
 ### 🛡️ Admin
-- 👥 **User Lifecycle** – Manage account activation, verification, and roles.
-- 📚 **Academic Setup** – Create courses, assign faculty, and manage enrollments.
-- 🎨 **Platform Theming** – Unified "Deep Royal Purple" design system.
+- 👥 **Account Management** – Oversee student and faculty enrollment for local centers.
+- 📚 **Academic Setup** – Curate courses and assign resources specifically for rural learner needs.
+- 🎨 **Unified Design** – Clean, accessible "Deep Royal Purple" interface optimized for all devices.
 
 ### 👨‍🏫 Faculty
 - 🤖 **AI Quiz Generator** – Automated quiz creation for **any subject** using Google Gemini.

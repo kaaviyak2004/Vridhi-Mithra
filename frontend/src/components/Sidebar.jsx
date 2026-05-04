@@ -34,7 +34,7 @@ export default function Sidebar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
-  const [branding, setBranding] = useState({ collegeName: 'Vridhi Mitra', tagline: 'AI Learning Platform', logo: '🌱' });
+  const [branding, setBranding] = useState({ collegeName: 'Vridhi Mitra', tagline: 'AI Personalized Learning for Rural Students', logo: '🌱' });
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);

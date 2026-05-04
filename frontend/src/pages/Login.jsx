@@ -10,7 +10,7 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const { login, loading } = useAuthStore();
   const navigate = useNavigate();
-  const [branding, setBranding] = useState({ collegeName: 'Vridhi Mitra', tagline: 'AI-Powered Student Learning Platform', logo: '🌱' });
+  const [branding, setBranding] = useState({ collegeName: 'Vridhi Mitra', tagline: 'AI Personalized Learning for Rural Students', logo: '🌱' });
 
   useEffect(() => {
     api.get('/admin/settings').then(({ data }) => {
@@ -46,7 +46,7 @@ export default function Login() {
         <div className="auth-header">
           <div className="auth-logo">{branding.logo || '🌱'}</div>
           <h1>{branding.collegeName || 'Vridhi Mitra'}</h1>
-          <p>{branding.tagline || 'AI-Powered Student Learning Platform'}</p>
+          <p>{branding.tagline || 'AI Personalized Learning for Rural Students'}</p>
         </div>
 
         <form className="auth-form" onSubmit={handleSubmit}>
