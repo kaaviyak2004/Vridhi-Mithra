@@ -11,7 +11,7 @@ const SETTINGS_PATH = path.join(__dirname, '..', 'institution-settings.json');
 
 const getDefaultSettings = () => ({
   collegeName: 'Vridhi Mitra',
-  tagline: 'AI-Powered Student Learning Platform',
+  tagline: 'AI Personalized Learning for Rural Students',
   logo: '🌱',
   primaryColor: '#6c5ce7',
   accentColor: '#00cec9',
